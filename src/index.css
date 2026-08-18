@@ -1,0 +1,220 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-great-vibes {
+    font-family: 'Great Vibes', cursive;
+  }
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-gold-gradient {
+    background: linear-gradient(135deg, #D4AF37 0%, #F3E5AB 30%, #AA771C 70%, #D4AF37 100%);
+  }
+
+  .bg-gold-subtle {
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.12) 0%, rgba(243, 229, 171, 0.25) 50%, rgba(170, 119, 28, 0.12) 100%);
+  }
+
+  .border-gold {
+    border-color: #D4AF37;
+  }
+
+  .royal-shadow {
+    box-shadow: 0 10px 30px -5px rgba(58, 46, 42, 0.08), 0 0 15px rgba(212, 175, 55, 0.15);
+  }
+
+  .royal-card-hover {
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .royal-card-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px -10px rgba(139, 30, 63, 0.12), 0 0 25px rgba(212, 175, 55, 0.3);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FDF8F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A67C00;
+}
+
+/* Keyframes */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes float-petal {
+  0% {
+    transform: translateY(-10px) rotate(0deg) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg) translateX(50px);
+    opacity: 0;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.03);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 40s linear infinite;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 3s ease-in-out infinite;
+}
+
+.shimmer-text {
+  background: linear-gradient(90deg, #AA771C 0%, #FCF6BA 25%, #D4AF37 50%, #FCF6BA 75%, #AA771C 100%);
+  background-size: 200% auto;
+  color: #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+
+/* Lata vine gentle sway — moves a little left and right continuously */
+@keyframes vine-sway {
+  0%   { transform: translateX(0px); }
+  50%  { transform: translateX(-8px); }
+  100% { transform: translateX(0px); }
+}
+
+.animate-vine-sway {
+  animation: vine-sway 2.5s ease-in-out infinite alternate;
+}
+
+/* Right side vine — flip baked into keyframes so animation doesn't override scaleX(-1) */
+@keyframes vine-sway-right-anim {
+  0%   { transform: scaleX(-1) translateX(0px); }
+  50%  { transform: scaleX(-1) translateX(-8px); }
+  100% { transform: scaleX(-1) translateX(0px); }
+}
+
+.animate-vine-sway-right {
+  animation: vine-sway-right-anim 2.5s ease-in-out infinite alternate;
+}
+
+/* Lata2 top-center hanging ivy — pendulum: top fixed, bottom swings */
+@keyframes lata2-sway {
+  0%   { transform: rotate(0deg); }
+  50%  { transform: rotate(-6deg); }
+  100% { transform: rotate(6deg); }
+}
+
+.animate-lata2-sway {
+  transform-origin: top center;
+  animation: lata2-sway 3s ease-in-out infinite alternate;
+}
+
+/* Swan left — glides left + bobs */
+@keyframes swan-float-left {
+  0%   { transform: translateX(0px)  translateY(0px); }
+  50%  { transform: translateX(-18px) translateY(-8px); }
+  100% { transform: translateX(0px)  translateY(0px); }
+}
+
+/* Swan right — glides right + bobs (used inside scaleX(-1) wrapper so -X = right visually) */
+@keyframes swan-float-right {
+  0%   { transform: translateX(0px)  translateY(0px); }
+  50%  { transform: translateX(-18px) translateY(-8px); }
+  100% { transform: translateX(0px)  translateY(0px); }
+}
+
+/* Swan float — bobs up/down + drifts gently side to side */
+@keyframes swan-float {
+  0%   { transform: translateY(0px) translateX(0px); }
+  25%  { transform: translateY(-6px) translateX(-10px); }
+  50%  { transform: translateY(-10px) translateX(0px); }
+  75%  { transform: translateY(-6px) translateX(10px); }
+  100% { transform: translateY(0px) translateX(0px); }
+}
+
+/* Morphing Blob Shapes */
+@keyframes blob-float-1 {
+  0%, 100% { border-radius: 45% 55% 40% 60% / 55% 45% 60% 40%; transform: translateY(0); }
+  50% { border-radius: 60% 40% 50% 50% / 40% 50% 50% 60%; transform: translateY(-8px); }
+}
+
+@keyframes blob-float-2 {
+  0%, 100% { border-radius: 50% 50% 35% 65% / 60% 40% 60% 40%; transform: translateY(0); }
+  50% { border-radius: 40% 60% 60% 40% / 50% 55% 45% 50%; transform: translateY(-10px); }
+}
+
+@keyframes blob-float-3 {
+  0%, 100% { border-radius: 55% 45% 50% 50% / 45% 60% 40% 55%; transform: translateY(0); }
+  50% { border-radius: 50% 50% 60% 40% / 40% 50% 50% 60%; transform: translateY(-6px); }
+}
+
+.animate-blob-1 {
+  animation: blob-float-1 4s ease-in-out infinite;
+}
+
+.animate-blob-2 {
+  animation: blob-float-2 5s ease-in-out infinite;
+}
+
+.animate-blob-3 {
+  animation: blob-float-3 4.5s ease-in-out infinite;
+}
+
+@keyframes march {
+  to {
+    stroke-dashoffset: -12;
+  }
+}
+
+.animate-march {
+  animation: march 0.8s linear infinite;
+}

@@ -1,0 +1,254 @@
+{
+  "brand": {
+    "name": "ShaadiVows",
+    "tagline": "Royal Indian Digital Invitations & RSVP Studio",
+    "supportEmail": "namaste@shadivows.com",
+    "phone": "+91 98765 43210"
+  },
+  "hero": {
+    "badge": "|| Shree Ganeshay Namah ||",
+    "title": "Arjun & Ananya",
+    "subtitle": "Together with their families, cordially invite you to celebrate their wedding union in royal splendour.",
+    "eventDate": "February 14, 2027",
+    "venue": "The Rose Garden Estate, Udaipur",
+    "ctaText": "Explore Invitation & RSVP"
+  },
+  "photoGallery": {
+    "sectionTitle": "Our Gallery",
+    "sectionLabel": "Memories Together",
+    "description": "A curated collection of moments from our love story, captured in joyful celebration.",
+    "photos": [
+      {
+        "id": 1,
+        "src": "gallery1.jpg",
+        "alt": "Together",
+        "span": "row-span-2"
+      },
+      {
+        "id": 2,
+        "src": "happymoment.jpg",
+        "alt": "Happy moments",
+        "span": ""
+      },
+      {
+        "id": 3,
+        "src": "engagement.jpg",
+        "alt": "Our story",
+        "span": ""
+      },
+      {
+        "id": 4,
+        "src": "love story.jpg",
+        "alt": "The proposal",
+        "span": "row-span-2"
+      },
+      {
+        "id": 5,
+        "src": "proposal.jpg",
+        "alt": "Engagement",
+        "span": ""
+      },
+      {
+        "id": 6,
+        "src": "sindur.jpg",
+        "alt": "Love story",
+        "span": ""
+      },
+      {
+        "id": 7,
+        "src": "celebration.jpg",
+        "alt": "Golden hour",
+        "span": ""
+      },
+      {
+        "id": 8,
+        "src": "https://picsum.photos/seed/wed8/600/400",
+        "alt": "Forever",
+        "span": ""
+      },
+      {
+        "id": 9,
+        "src": "celebration.jpg",
+        "alt": "Celebration",
+        "span": ""
+      },
+      {
+        "id": 10,
+        "src": "https://picsum.photos/seed/wed10/600/400",
+        "alt": "Together Forever",
+        "span": ""
+      }
+    ]
+  },
+  "groomAndBride": {
+    "sectionTitle": "Groom & Bride",
+    "sectionSubtitle": "Two souls united by destiny and royal heritage",
+    "groom": {
+      "name": "Arjun",
+      "role": "Groom",
+      "parents": "Son of Sri & Smt. Maharana Family",
+      "description": "Heritage Architect & Royal Revivalist. Passionate about classical architecture, royal Rajputana history, and fine arts.",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600",
+      "instagram": "#"
+    },
+    "bride": {
+      "name": "Ananya",
+      "role": "Bride",
+      "parents": "Daughter of The Bride's Family",
+      "description": "Classical Vocalist & Textile Designer. Lover of traditional weaves, royal Mewar heritage, and acoustic melodies.",
+      "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600",
+      "instagram": "#"
+    }
+  },
+  "scratchToReveal": {
+    "sectionTitle": "Scratch to Reveal",
+    "sectionSubtitle": "Scratch the card below to reveal the secret wedding blessing & surprise venue detail!",
+    "coverMessage": "Scratch Here to Reveal Secret Blessing",
+    "secretHeading": "Secret Wedding Invitation Blessing",
+    "groomName": "Arjun",
+    "brideName": "Ananya",
+    "dateStr": "Saturday, 14th February 2027 at 10:00 AM",
+    "venueStr": "The Rose Garden Estate, Udaipur",
+    "surpriseNote": "Special Royal Gala Dinner follows immediately after Phere!"
+  },
+  "invitationCards": {
+    "sectionTitle": "Wedding Invitation Card",
+    "sectionSubtitle": "Elegant digital invitation styled with classical motifs and royal heritage.",
+    "lavender": {
+      "groomName": "Arjun",
+      "brideName": "Ananya",
+      "monthStr": "FEBRUARY",
+      "dayName": "SATURDAY",
+      "dayNum": "14",
+      "timeStr": "AT 10:00 AM",
+      "yearStr": "2027",
+      "venueName": "The Rose Garden Estate",
+      "venueAddress": "Near City Palace, Lake Pichola, Udaipur, Rajasthan 313001"
+    },
+    "traditional": {
+      "familyHeading": "Together with their Families !",
+      "invitationTitle": "Maharana's Wedding Invitation",
+      "groomName": "Arjun",
+      "brideName": "Ananya",
+      "dateStr": "On Saturday, 14th February 2027",
+      "timeStr": "10:00 am",
+      "venueLine1": "The Rose Garden Estate,",
+      "venueLine2": "Udaipur, Rajasthan",
+      "inviteeTitle": ":: Invitee ::",
+      "inviteeNames": "Maharana Family",
+      "cardNumber": "1160"
+    }
+  },
+  "countdown": {
+    "sectionTitle": "Counting Down to the Big Day",
+    "coupleNames": "Arjun & Ananya",
+    "targetDate": "2027-02-14T10:00:00",
+    "locationStr": "The Rose Garden Estate, Udaipur, Rajasthan",
+    "quote": "In every wedding vow lies a promise of eternal togetherness."
+  },
+  "weddingEvents": [
+    {
+      "id": "welcome",
+      "title": "Welcome Dinner",
+      "subtitle": "An Evening of Welcome",
+      "date": "Feb 10, 2027",
+      "time": "7:00 PM - 10:00 PM",
+      "venue": "The Palace Gardens, Udaipur",
+      "description": "Kick off the wedding festivities with a grand dinner and drinks under the stars.",
+      "dressCode": "Smart Casuals",
+      "icon": "Sparkles",
+      "imageUrl": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800"
+    },
+    {
+      "id": "mehendi",
+      "title": "Mehendi",
+      "subtitle": "Henna Designs & Musical Evening",
+      "date": "Feb 11, 2027",
+      "time": "4:00 PM - 9:00 PM",
+      "venue": "The Bougainvillea Garden, Udaipur",
+      "description": "Henna artists, folk dance performances, live acoustic band, and lavish Rajasthani street food stalls.",
+      "dressCode": "Indo-Western / Royal Floral",
+      "icon": "Music",
+      "imageUrl": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800"
+    },
+    {
+      "id": "haldi",
+      "title": "Haldi",
+      "subtitle": "The Auspicious Turmeric Ritual",
+      "date": "Feb 12, 2027",
+      "time": "10:00 AM - 1:00 PM",
+      "venue": "The Family Courtyard, Udaipur",
+      "description": "A vibrant morning filled with turmeric paste, marigold blooms, yellow attire, and joyous dhol rhythms.",
+      "dressCode": "Yellow / Sunshine Traditional",
+      "icon": "Sun",
+      "imageUrl": "/haldi_ceremony.jpg"
+    },
+    {
+      "id": "sangeet",
+      "title": "Sangeet",
+      "subtitle": "A Night of Music & Dance",
+      "date": "Feb 12, 2027",
+      "time": "7:00 PM - 11:30 PM",
+      "venue": "The Lakeside Amphitheatre, Udaipur",
+      "description": "A grand evening filled with family performances, DJ, and lots of dancing.",
+      "dressCode": "Glamorous Ethnic Wear",
+      "icon": "Music",
+      "imageUrl": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800"
+    },
+    {
+      "id": "wedding",
+      "title": "Wedding Ceremony",
+      "subtitle": "Sacred Pheras & Baraat Arrival",
+      "date": "Feb 14, 2027",
+      "time": "10:00 AM",
+      "venue": "The Rose Garden Estate, Udaipur",
+      "description": "Royal Baraat procession on decorated horses & elephants, followed by Vedic marriage rituals and Phere.",
+      "dressCode": "Royal Velvet & Silk Traditional Ethnic",
+      "icon": "Crown",
+      "imageUrl": "/saadi.png"
+    },
+    {
+      "id": "reception",
+      "title": "Reception",
+      "subtitle": "Grand Gala Dinner & Celebrations",
+      "date": "Feb 14, 2027",
+      "time": "6:30 PM - 11:00 PM",
+      "venue": "The Grand Ballroom, Palace Hotel, Udaipur",
+      "description": "An enchanting evening with live symphony orchestra, royal dining, and fireworks.",
+      "dressCode": "Black Tie / Tuxedo / Designer Lehenga",
+      "icon": "Sparkles",
+      "imageUrl": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800"
+    }
+  ],
+  "venueLocation": {
+    "sectionTitle": "Venue & Location",
+    "venueName": "The Rose Garden Estate",
+    "address": "The Rose Garden Estate, Near City Palace, Lake Pichola, Udaipur, Rajasthan 313001",
+    "googleMapsUrl": "https://maps.google.com/?q=City+Palace+Udaipur",
+    "mapEmbedIframeUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.291775191541!2d73.6811!3d24.5764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e56230b77e8d%3A0xe744e8ff74f07e5f!2sCity%20Palace%2C%20Udaipur!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+    "airport": "Maharana Pratap Airport (UDR) - 22 km",
+    "railway": "Udaipur City Railway Station - 3.5 km",
+    "parking": "Valet Parking Available"
+  },
+  "footer": {
+    "copyright": "© 2027 Arjun & Ananya Wedding. Designed with love.",
+    "links": [
+      {
+        "label": "Invitation Card",
+        "href": "#invitation"
+      },
+      {
+        "label": "Events Schedule",
+        "href": "#events"
+      },
+      {
+        "label": "Venue Map",
+        "href": "#venue"
+      },
+      {
+        "label": "RSVP",
+        "href": "#rsvp"
+      }
+    ]
+  }
+}
